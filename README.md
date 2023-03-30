@@ -1,26 +1,27 @@
 # Start the project
 
 
-## Backend
+## BackEnd
 
+Go to Backend folder and run a command:
 ```
-Go to Backend folder and run a command npm run dev
+npm run dev
 ```
-## Frontend
+## FrontEnd
 
+Go to Frontend folder and run a command:
 ```
-Go to Frontend folder and run a command npm run start
+npm run start
 ```
 
 # API
 
 Base url: http://localhost:5050/api/v1
 
-
 ## Auth
 
 
-> Register
+### Register
 
 POST `/auth/register/`
 ```
@@ -31,7 +32,8 @@ body: {
 
 password must contain upper- and lowercase letters, symbol and number
 ```
-> Login
+
+### Login
 
 POST `/users/login/`
 ```
@@ -44,7 +46,7 @@ body: {
 ## Products
 
 
-> Add product 
+### Add product 
 
 POST `/products/add/`
 
@@ -60,21 +62,21 @@ body: {
 * reuired fields
 ```
 
-> Get all products
+### Get all products
 
 GET `/products/?name=name&category=category`
 
 Query name and category not necessary. Needs for searching by query
 
-> Get product by id
+### Get product by id
 
 GET `/products/{id}`
 
-> Delete room 
+### Delete room 
 
 DELETE `/products/{id}`
 
-> Update product 
+### Update product 
 
 PUT `/products/{id}`
 
@@ -88,20 +90,21 @@ body: {
 ## Users
 
 
-> Get curret user data
+### Get current user data
 
 GET `/users/me/`
 
 # Run the tests
 
+## BackEnd
 
-## Backend
+Go to Backend folder and run a command:
+```
+npm run test
+```
+## FrontEnd
 
+Go to Frontend folder and run a command:
 ```
-Go to Backend folder and run a command npm run test
-```
-## Frontend
-
-```
-Go to Frontend folder and run a command npm run test-jest
+npm run test-jest
 ```

@@ -8,9 +8,8 @@
     "test": "jest --detectOpenHandles"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://github.com/ilya230995/NodeJS-React-TypeScript-Test#readme",
+  "author": "OmiSoft.Net",
+  "license": "MIT",
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",

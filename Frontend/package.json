@@ -1,7 +1,9 @@
 {
   "name": "node-js-react-typescript-test",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "author": "OmiSoft.Net",
+  "license": "MIT",
   "dependencies": {
     "@babel/preset-typescript": "^7.21.0",
     "@emotion/react": "^11.10.6",
